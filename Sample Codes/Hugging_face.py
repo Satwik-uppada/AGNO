@@ -3,6 +3,7 @@ from agno.models.huggingface import HuggingFace
 from dotenv import load_dotenv
 import os
 
+
 load_dotenv()
 
 api_key = os.getenv("HUGGINGFACE_API_KEY")
