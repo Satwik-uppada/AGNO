@@ -3,7 +3,7 @@ from agno.agent import Agent, RunResponse
 from agno.models.google import Gemini
 from dotenv import load_dotenv
 import os
-from agno.utils.pprint import pprint_run_response
+from agno.utils.pprint import pprint_run_response 
 
 
 # Load environment variables from .env file
